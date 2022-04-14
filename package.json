@@ -41,8 +41,6 @@
     "vite-plugin-eslint": "^1.4.0"
   },
   "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+    "pre-commit": "lint-staged"
   }
 }
