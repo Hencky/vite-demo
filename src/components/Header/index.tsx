@@ -1,4 +1,3 @@
-import React from 'react';
 import logoSvg from '@assets/logo.svg';
 import './index.less';
 

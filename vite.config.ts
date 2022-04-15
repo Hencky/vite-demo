@@ -13,15 +13,15 @@ export default defineConfig({
   css: {
     preprocessorOptions: {
       less: {
-        additionalData: `@import '${variablePath}';`
-      }
-    }
+        additionalData: `@import '${variablePath}';`,
+      },
+    },
   },
   resolve: {
     alias: {
       '@': path.join(__dirname, 'src'),
       '@components': path.join(__dirname, 'src/components'),
-      '@assets': path.join(__dirname, 'src/assets')
-    }
-  }
+      '@assets': path.join(__dirname, 'src/assets'),
+    },
+  },
 });

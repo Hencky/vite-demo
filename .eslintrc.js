@@ -2,31 +2,32 @@
 module.exports = {
   env: {
     browser: true,
-    es2021: true
+    es2021: true,
   },
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended',
     'prettier',
-    'plugin:prettier/recommended'
+    'plugin:prettier/recommended',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
-      jsx: true
+      jsx: true,
     },
     ecmaVersion: 'latest',
-    sourceType: 'module'
+    sourceType: 'module',
   },
   plugins: ['react', '@typescript-eslint', 'prettier'],
   rules: {
-    'prettier/prettier': 'error',
+    'prettier/prettier': ['error', { singleQuote: true, 'comma-dangle': 'always-multiline' }],
     indent: ['error', 2],
     quotes: ['error', 'single'],
     'no-console': 'error',
     semi: ['error', 'always'],
     'no-eval': 'error',
-    'no-unused-vars': 'error'
-  }
+    'no-unused-vars': 'error',
+    'react/react-in-jsx-scope': 'off',
+  },
 };

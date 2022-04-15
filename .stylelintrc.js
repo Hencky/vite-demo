@@ -4,10 +4,10 @@ module.exports = {
     'stylelint-config-standard',
     'stylelint-config-recess-order',
     'stylelint-config-prettier',
-    'stylelint-prettier/recommended'
+    'stylelint-prettier/recommended',
   ],
   rules: {
-    'prettier/prettier': true
+    'prettier/prettier': true,
   },
-  customSyntax: 'postcss-less'
+  customSyntax: 'postcss-less',
 };
