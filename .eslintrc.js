@@ -24,7 +24,7 @@ module.exports = {
     'prettier/prettier': ['error', { singleQuote: true, 'comma-dangle': 'always-multiline' }],
     indent: ['error', 2],
     quotes: ['error', 'single'],
-    'no-console': 'error',
+    'no-console': 'warn',
     semi: ['error', 'always'],
     'no-eval': 'error',
     'no-unused-vars': 'error',
