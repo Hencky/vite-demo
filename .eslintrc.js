@@ -27,7 +27,7 @@ module.exports = {
     'no-console': 'warn',
     semi: ['error', 'always'],
     'no-eval': 'error',
-    'no-unused-vars': 'error',
+    'no-unused-vars': 'warn',
     'react/react-in-jsx-scope': 'off',
   },
 };

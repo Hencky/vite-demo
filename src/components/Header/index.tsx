@@ -1,4 +1,4 @@
-import logoSvg from '@assets/logo.svg';
+import logoSvg from '@/assets/logo.svg';
 import './index.less';
 
 export const Header = () => {

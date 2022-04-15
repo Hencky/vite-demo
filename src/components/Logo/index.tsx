@@ -1,11 +1,9 @@
-import LogoIcon from '@assests/logo.svg';
-
-import './index.less';
+import { ReactComponent as ReactLogo } from '@/assets/logo.svg';
 
 export const Logo = () => {
   return (
     <div className="vite-demo-logo">
-      <LogoIcon />
+      <ReactLogo style={{ width: 200, height: 200 }} />
     </div>
   );
 };
