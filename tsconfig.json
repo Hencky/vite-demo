@@ -2,7 +2,7 @@
   "compilerOptions": {
     "jsx": "react-jsx",
     "composite": true,
-    "types": ["node", "vite-plugin-svgr/client"],
+    "types": ["node", "vite-plugin-svgr/client", "vite/client"],
     "target": "ESNext",
     "importHelpers": true,
     "useDefineForClassFields": true,

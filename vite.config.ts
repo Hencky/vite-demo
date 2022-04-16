@@ -56,4 +56,8 @@ export default defineConfig({
       },
     },
   },
+  // 预构建
+  optimizeDeps: {
+    include: ['lodash'],
+  },
 });

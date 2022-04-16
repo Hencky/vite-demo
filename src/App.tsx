@@ -6,6 +6,9 @@ import { Logo } from './components/Logo';
 
 import { version } from '../package.json';
 
+const url = import.meta.url;
+console.log('url', url);
+
 function App() {
   console.log('version', version);
   return (
